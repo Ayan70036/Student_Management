@@ -1,0 +1,69 @@
+/* ===== GLOBAL ===== */
+body {
+    background: linear-gradient(to right, #eef2f3, #dfe9f3);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* ===== HEADINGS ===== */
+h2 {
+    font-weight: 600;
+    color: #333;
+}
+
+/* ===== CARD ===== */
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
+/* ===== TABLE ===== */
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* ===== BUTTONS ===== */
+.btn {
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+.btn-success:hover {
+    background-color: #157347;
+}
+
+.btn-warning:hover {
+    background-color: #d39e00;
+}
+
+.btn-danger:hover {
+    background-color: #bb2d3b;
+}
+
+/* ===== FILE BUTTON ===== */
+input[type="file"] {
+    padding: 5px;
+}
+
+/* ===== LINKS ===== */
+a {
+    text-decoration: none;
+}
